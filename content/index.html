@@ -1,0 +1,98 @@
+!* commandSubst true
+! source -directory [dir plugins] posts.tcl
+! source -directory [dir plugins] www.tcl
+<div class="row margin-buffer"></div>
+
+<div class="row margin-buffer">
+  <div class="col-md-6">
+    <h1>Spend Less</h1>
+    <p>Even small changes in how much you spend can add up to significant
+    amounts over a year.</p>
+    <a class="btn btn-success btn-lg" href="/articles/tag/spend-less/">Spend Less</a>
+
+  </div>
+  <div class="col-md-6 hidden-sm hidden-xs">
+    <img class="pull-right" src="/img/5777-business-items-isolated-on-a-white-background-pv.jpg" style="max-width: 300px">
+  </div>
+</div>
+
+<div class="row margin-buffer">
+  <div class="col-md-6 hidden-sm hidden-xs">
+    <img src="/img/www.maxpixel.net-Mechanic-Workers-Craftsmen-Helm-Construction-Work-1020156.jpg" style="max-width: 300px">
+  </div>
+  <div class="col-md-6">
+    <h1>Earn More</h1>
+    <p>Small increases in your earnings can make big difference.  An extra job
+    or side project can give your income a temporary boost or supplement your
+    regular job.  A side project could turn into a new business giving you
+    true financial freedom.</p>
+    <a class="btn btn-success btn-lg" href="/articles/tag/earn-more/">Earn More</a>
+  </div>
+</div>
+
+<div class="row margin-buffer">
+  <div class="col-md-6">
+    <h1>Save More</h1>
+    <p>Get your finaces under control then you can save for the future, retire
+    more compfortably or just live day to day with less stress and worry.</p>
+    <a class="btn btn-success btn-lg" href="/articles/tag/save-more/">Save More</a>
+  </div>
+  <div class="col-md-6 hidden-sm hidden-xs">
+    <img class="pull-right" src="/img/business-money-pink-coins.jpg" style="max-width: 400px">
+  </div>
+</div>
+
+<div class="row margin-buffer"></div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h1 class="text-center">Spend less than you earn and save for the future</h1>
+    <img class="img-responsive center-block" src="/img/www.maxpixel.net-Weigh-Kitchen-Scale-Balance-Pan-Horizontal-2071307.jpg" style="max-width: 300px">
+  </div>
+</div>
+
+<div class="row margin-buffer">
+  <div class="col-md-12">
+    <p>Receive regular updates via email.</p>
+  </div>
+</div>
+
+<div class="row margin-buffer">
+  <div class="col-md-12">
+    <p id="rss-subscribe">
+      Subscribe <a href="[www::url "/feed.xml"]">via Atom</a>
+    </p>
+  </div>
+</div>
+
+<div class="row margin-buffer">
+  <div class="col-md-12">
+    <p>If you get your finances under control then perhaps you could work less and spend more time with your family.  Or do other things that you enjoy.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Latest Articles</h1>
+    <p>If you get your finances under control then perhaps you could work less and spend more time with your family.  Or do other things that you enjoy.</p>
+    <a class="pull-right btn btn-success btn-lg" href="/articles/">View All</a>
+  </div>
+</div>
+<div class="margin-buffer"></div>
+
+<div class="row margin-buffer">
+!   set numPosts 0
+!   set posts [posts::sort [collection get articles-posts]]
+!   foreach post $posts {
+!     dict set post postNum $numPosts
+!     incr numPosts
+!     if {$numPosts >= 6} {
+!       break
+!     }
+      [ornament -params $post -directory [dir includes] -file post_box_summary.html]
+!     if {$numPosts % 3 == 0} {
+        </div>
+        <div class="row margin-buffer">
+!     }
+!   }
+</div>

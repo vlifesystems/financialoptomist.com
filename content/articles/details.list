@@ -1,0 +1,27 @@
+{ filename    2018-10-16-putting-spending-on-luxuries-into-perspective.md
+  title       "Putting Spending on Luxuries into Perspective"
+  author      {
+    name        "Lawrence Woodman"
+    url         "https://lawrencewoodman.github.io"
+  }
+  tags        {"Spending"}
+}
+
+{ filename    2018-10-14-how-to-identify-essential-expenses.md
+  title       "How to Identify Essential Expenses"
+  author      {
+    name        "Lawrence Woodman"
+    url         "https://lawrencewoodman.github.io"
+  }
+  tags        {"Spending"}
+  hideDate    true
+}
+
+{ filename    2018-10-13-how-to-analyse-earnings.md
+  title       "How to Analyse Earnings"
+  author      {
+    name        "Lawrence Woodman"
+    url         "https://lawrencewoodman.github.io"
+  }
+  tags        {"Earning"}
+}
