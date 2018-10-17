@@ -5,8 +5,7 @@ file copy [file join $cssDir *.css] \
           [www::makeDestination css]
 
 set imagesDir [dir content static img]
-file copy [file join $imagesDir *.png] \
-          [file join $imagesDir *.jpg] \
+file copy [file join $imagesDir *.jpg] \
           [www::makeDestination img]
 
 set fontsDir [dir content static fonts]
