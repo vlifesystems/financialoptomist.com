@@ -57,7 +57,7 @@ Look at how this adds up after a number of years. If the couple can maintain a r
   <tr><td>A Third</td><td class="text-right">3,317</td><td class="text-right">9,951</td><td class="text-right">13,268</td><td class="text-right">16,585</td></tr>
   <tr><td>Half</td><td class="text-right">4,975</td><td class="text-right">14,925</td><td class="text-right">19,900</td><td class="text-right">24,875</td></tr>
   <tr><td>Two Thirds</td><td class="text-right">6,633</td><td class="text-right">19,899</td><td class="text-right">26,532</td><td class="text-right">33,165</td></tr>
-  <tr><td>Total</td><td class="text-right">9,950</td><td class="text-right">29,850</td><td class="text-right">39,800</td><td class="text-right">49,750</td></tr>
+  <tr><td>Completely eliminate</td><td class="text-right">9,950</td><td class="text-right">29,850</td><td class="text-right">39,800</td><td class="text-right">49,750</td></tr>
 </table>
 
 ## What Next?
