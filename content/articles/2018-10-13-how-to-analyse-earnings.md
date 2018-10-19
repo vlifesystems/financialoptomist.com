@@ -1,6 +1,6 @@
 On the face of it, it seems easy to analyse what we earn.  However, there is sometimes money that we receive that we don't always consider our earnings or factor in when making financial decisions.  Therefore it is useful to take a rigorous approach to this.
 
-# Recording our Earnings
+## Recording our Earnings
 
 We need to take into account all money coming in.  If we live with other people, for example in a family that pools its money, then it makes sense to do it for the family rather than just us as an individual.  This could be from a variety of sources:
 
