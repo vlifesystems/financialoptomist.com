@@ -13,11 +13,11 @@ We need to take into account all money coming in.  If we live with other people,
 
 Don't include money from gambling such as scratch-card wins as they are very unpredictable and can't be relied upon when making decisions.
 
-Compile all earnings for the year into a table so that you can see what is coming in.
+Remove any deductions such as tax, national insurance, company pension scheme, etc.  Compile all earnings for the year into a table so that you can see what is coming in.
 
 <table class="table table-bordered hand-written">
   <tr><th>Source</th><th>Amount</th></tr>
-  <tr><td>Salary from job</td><td class="text-right">27,000</td></tr>
+  <tr><td>Take home salary from job</td><td class="text-right">27,000</td></tr>
   <tr><td>Child tax credits</td><td class="text-right">4,680</td></tr>
   <tr><td>Child benefit</td><td class="text-right">1,651</td></tr>
   <tr><td>Car-boot Sale Profit</td><td class="text-right">65</td></tr>
