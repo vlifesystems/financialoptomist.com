@@ -2,8 +2,7 @@ Many of use work in jobs where we can do a little overtime from time to time.  I
 
 ## How Does Overtime Add-Up?
 
-If we look at the effect of various amounts of overtime over different time-periods we can start to see the effect it can have on our personal finances.  For the table below we'll assume we are paid at £8/hr and work 48 weeks a year.
-
+If we look at the effect of various amounts of overtime, before tax and NI, over different time-periods we can start to see the effect it can have on our personal finances.  For the table below we'll assume we are paid at £8/hr.
 
 <table class="table table-bordered hand-written">
   <tr>
