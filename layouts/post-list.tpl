@@ -8,22 +8,9 @@
   </div>
 </div>
 
-<div class="row margin-buffer">
-!   set numPosts 0
-!   set posts [posts::sort [collection get articles-posts]]
-!   foreach post $posts {
-!     dict set post postNum $numPosts
-!     incr numPosts
-!     if {$numPosts >= 6} {
-!       break
-!     }
-      [ornament -params $post -directory [dir includes] -file post_box_summary.html]
-!     if {$numPosts % 3 == 0} {
-        </div>
-        <div class="row margin-buffer">
-!     }
-!   }
-</div>
+! set posts [posts::sort [collection get articles-posts]]
+! set postListParams [dict create posts $posts maxPosts 6]
+[ornament -params $postListParams -directory [dir includes] -file post_list.html]
 
 <div class="row">
   <div class="col-md-12">

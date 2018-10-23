@@ -32,26 +32,11 @@
 </div>
 
 ! if {[llength [getparam relatedPosts]] >= 1} {
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Related Articles</h2>
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Related Articles</h2>
+      </div>
     </div>
-  </div>
-
-  <div class="row margin-buffer">
-!   set numPosts 0
-!   set posts [getparam relatedPosts]
-!     foreach post [getparam relatedPosts] {
-!       dict set post postNum $numPosts
-!       incr numPosts
-!       if {$numPosts >= 6} {
-!         break
-!       }
-        [ornament -params $post -directory [dir includes] -file post_box_summary.html]
-!       if {$numPosts % 3 == 3} {
-          </div>
-          <div class="row margin-buffer">
-!       }
-!     }
-  </div>
+!   set postListParams [dict create posts [getparam relatedPosts] maxPosts 6]
+    [ornament -params $postListParams -directory [dir includes] -file post_list.html]
 ! }

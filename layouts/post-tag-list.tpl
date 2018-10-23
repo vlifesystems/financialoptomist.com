@@ -9,18 +9,8 @@
   </div>
 </div>
 
-<div class="row margin-buffer">
-!  set numPosts 0
-!  foreach post [getparam posts] {
-!    dict set post postNum $numPosts
-!    incr numPosts
-     [ornament -params $post -directory [dir includes] -file post_box_summary.html]
-!    if {$numPosts % 3 == 0} {
-       </div>
-       <div class="row margin-buffer">
-!     }
-!   }
-</div>
+! set postListParams [dict create posts [getparam posts] maxPosts 0]
+[ornament -params $postListParams -directory [dir includes] -file post_list.html]
 
 <div class="row">
   <div class="col-md-12">
