@@ -17,7 +17,7 @@ Remove any deductions such as tax, national insurance, company pension scheme, e
 
 <table class="table table-bordered hand-written">
   <tr><th>Source</th><th>Amount</th></tr>
-  <tr><td>Take home salary from job</td><td class="text-right">27,000</td></tr>
+  <tr><td>Take home salary from jobs</td><td class="text-right">27,000</td></tr>
   <tr><td>Child tax credits</td><td class="text-right">4,680</td></tr>
   <tr><td>Child benefit</td><td class="text-right">1,651</td></tr>
   <tr><td>Car-boot Sale Profit</td><td class="text-right">65</td></tr>
