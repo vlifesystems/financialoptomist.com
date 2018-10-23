@@ -89,3 +89,10 @@ hr {
   border-color: #DDD;
 }
 
+dt {
+  margin-top: 0.75em;
+}
+
+dd {
+  margin-left: 1em;
+}

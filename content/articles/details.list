@@ -1,3 +1,12 @@
+{ filename    2018-10-23-smart-saving.md
+  title       "SMART Saving"
+  author      {
+    name        "Lawrence Woodman"
+    url         "https://lawrencewoodman.github.io"
+  }
+  tags        {"Saving"}
+}
+
 { filename    2018-10-18-boosting-our-finances-with-overtime.md
   title       "Boosting our Finances with Overtime"
   author      {
@@ -23,7 +32,6 @@
     url         "https://lawrencewoodman.github.io"
   }
   tags        {"Spending"}
-  hideDate    true
 }
 
 { filename    2018-10-13-how-to-analyse-earnings.md
