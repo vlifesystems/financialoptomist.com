@@ -1,6 +1,40 @@
 To really understand our finances we need to understand what are _essential_ expenses for us, expenses that we have to pay.  By identifying those we can work out our minimum expenses and then plan our finances around that.  This creates a good foundation around which to create a budget.
 
 ## Record our Essential Expenses
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Expense');
+    data.addColumn('number', 'Amount');
+    data.addRows([
+      ['Rent', 10800],
+      ['Food', 3120],
+      ['Council Tax', 2064],
+      ['Petrol', 1498],
+      ['Duel-fuel payment', 800],
+      ['Water/Sewage', 420],
+      ['Broadband/Telephone', 372],
+      ['Car Insurance', 291],
+      ['Clothes', 260],
+      ['Bus Fares', 180],
+      ['TV Licence', 148],
+      ['Car Tax', 140],
+      ['MOT & Service', 120],
+      ['House Insurance', 108],
+    ]);
+    var options = {'title':'Essential Expenses',
+                   'width':600,
+                   'height':500};
+    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+  }
+</script>
+<div class="pull-right" id="chart_div"></div>
+
 To begin look over bank and credit card statements for a period of 3-6 months.  If we live with other people, for example in a family that pools its money, then it makes sense to do it for the family rather than just us as an individual.  Note down any payments that are essential and relatively fixed.  To determine whether they are essential decide if you _need_ to pay them or _want_ to.  Below are common essential expenses.
 
 * Rent/Mortgage
@@ -34,7 +68,7 @@ Finally we get a table covering our yearly essential expenditure as shown below.
   <tr><td>Food</td><td class="text-right">3,120</td></tr>
   <tr><td>Council Tax</td><td class="text-right">2,064</td></tr>
   <tr><td>Petrol</td><td class="text-right">1,498</td></tr>
-  <tr><td>Duel-fuel payment</td><td class="text-right">762</td></tr>
+  <tr><td>Duel-fuel payment</td><td class="text-right">800</td></tr>
   <tr><td>Water/Sewage</td><td class="text-right">420</td></tr>
   <tr><td>Broadband/Telephone</td><td class="text-right">372</td></tr>
   <tr><td>Car Insurance</td><td class="text-right">291</td></tr>
@@ -44,7 +78,7 @@ Finally we get a table covering our yearly essential expenditure as shown below.
   <tr><td>Car Tax</td><td class="text-right">140</td></tr>
   <tr><td>MOT & Service</td><td class="text-right">120</td></tr>
   <tr><td>House Insurance</td><td class="text-right">108</td></tr>
-  <tr><th>Total</th><th class="text-right">20283</td></tr>
+  <tr><th>Total</th><th class="text-right">20,321</td></tr>
 </table>
 
 ## What Next?
