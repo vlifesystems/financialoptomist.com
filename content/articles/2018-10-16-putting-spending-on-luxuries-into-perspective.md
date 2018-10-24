@@ -61,7 +61,7 @@ Look at how this adds up after a number of years. If the couple can maintain a r
 </table>
 
 ## What Next?
-Now that we know what we are spending on luxuries we can start making more considered decisions about the effect our spending is having on our personal finances and on our life and financial goals. We can see where we can reduce our spending or have capacity to increase others such as the amount we save or give to charity. With some of the luxury spending it probably couldn't be excluded all together as for example with restaurants and take-aways you still need to eat even if not in this way. So a decrease in restaurant and take-away spending would mean a smaller increase in supermarket spending. However, now that we have the raw information we can start making those choices.
+Now that we know what we are spending on luxuries we can start making more considered decisions about the effect our spending is having on our personal finances and on our life and financial goals. We can see where we can reduce our spending or have capacity to increase others such as the amount we save or give to charity. With some of the luxury spending it probably couldn't be excluded all together as for example with restaurants and take-aways we still need to eat even if not in this way. So a decrease in restaurant and take-away spending would mean a smaller increase in supermarket spending. However, now that we have the raw information we can start making those choices.
 <hr />
 
 ## Footnotes
