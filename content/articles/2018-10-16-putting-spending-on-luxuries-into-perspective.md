@@ -7,13 +7,13 @@ Making some rough calculations about our spending on luxuries can help us determ
   <tr><th>Luxury</th><th class="text-right">Amount per Month</th><th class="text-right">Amount per Year</th></tr>
   <tr><td>Smoking 20 cigarettes a day<sup>1</sup></td><td class="text-right">335.00</td><td class="text-right">4,015</td</tr>
   <tr><td>Going out once a week for a drink for a couple<sup>2</sup></td><td class="text-right">303.33</td><td class="text-right">3,640</td></tr>
-  <tr><td>Going out once a week for a drink for a single person<sup>2</sup></td><td class="text-right">216.67</td><td class="text-right">2,600</td></tr>
   <tr><td>Smoking 10 cigarettes a day<sup>1</sup></td><td class="text-right">167.00</td><td class="text-right">2,007</td</tr>
+  <tr><td>Going out once a week for a drink for a single person<sup>2</sup></td><td class="text-right">216.67</td><td class="text-right">1,820</td></tr>
   <tr><td>Takeaway 1 night a week for a family of 4<sup>3</sup></td><td class="text-right">130.00</td><td class="text-right">1,560</td</tr>
-  <tr><td>Bought Sandwiches and Snack for Work for a Couple<sup>4</sup></td><td class="text-right">120</td><td class="text-right">1,440</td></tr>
+  <tr><td>Bought Sandwiches and Snack for Work for a Couple<sup>4</sup></td><td class="text-right">120.00</td><td class="text-right">1,440</td></tr>
   <tr><td>4 bottles of cheap wine a week<sup>5</sup></td><td class="text-right">86.67</td><td class="text-right">1,040</td></tr>
   <tr><td>Takeaway 1 night a week for a couple<sup>6</sup></td><td class="text-right">86.67</td><td class="text-right">1,040</td</tr>
-  <tr><td>Bought Sandwiches and Snack for Work for a Single Person<sup>4</sup></td><td class="text-right">60</td><td class="text-right">720</td></tr>
+  <tr><td>Bought Sandwiches and Snack for Work for a Single Person<sup>4</sup></td><td class="text-right">60.00</td><td class="text-right">720</td></tr>
   <tr><td>Restaurant once  a month for a family of 4</td><td class="text-right">60.00</td><td class="text-right">720</td</tr>
   <tr><td>2 bottles of cheap wine a week<sup>5</sup></td><td class="text-right">43.33</td><td class="text-right">520</td></tr>
   <tr><td>Restaurant once  a month for a couple</td><td class="text-right">40.00</td><td class="text-right">480</td</tr>
@@ -33,7 +33,7 @@ Below is a possible couple's luxury spending on a few items:
   <tr><td>Smoking 20 cigarettes a day<sup>1</sup></td><td class="text-right">335.00</td><td class="text-right">4,015</td</tr>
   <tr><td>Going out once a week for a drink for a couple<sup>2</sup></td><td class="text-right">303.33</td><td class="text-right">3,640</td></tr>
   <tr><td>Takeaway 1 night a week for a couple<sup>6</sup></td><td class="text-right">86.67</td><td class="text-right">1,040</td</tr>
-  <tr><td>Bought Sandwiches and Snack for Work for a Single Person<sup>4</sup></td><td class="text-right">60</td><td class="text-right">720</td></tr>
+  <tr><td>Bought Sandwiches and Snack for Work for a Single Person<sup>4</sup></td><td class="text-right">60.00</td><td class="text-right">720</td></tr>
   <tr><td>A Coffee from a Caf&eacute; 3 times a week<sup>7</sup></td><td class="text-right">6.60</td><td class="text-right">343</td></tr>
   <tr><td>Amazon Prime</td><td class="text-right">7.99</td><td class="text-right">96</td></tr>
   <tr><td>Netflix</td><td class="text-right">7.99</td><td class="text-right">96</td></tr>
