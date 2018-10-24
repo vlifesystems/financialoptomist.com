@@ -1,19 +1,14 @@
 On the face of it, it seems easy to analyse what we earn.  However, there is sometimes money that we receive that we don't always consider our earnings or factor in when making financial decisions.  Therefore it is useful to take a rigorous approach to this.
 
+
+## Recording our Earnings
+
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
-  // Load the Visualization API and the corechart package.
   google.charts.load('current', {'packages':['corechart']});
-
-  // Set a callback to run when the Google Visualization API is loaded.
   google.charts.setOnLoadCallback(drawChart);
 
-  // Callback that creates and populates a data table,
-  // instantiates the pie chart, passes in the data and
-  // draws it.
   function drawChart() {
-
-    // Create the data table.
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Source');
     data.addColumn('number', 'Amount');
@@ -23,20 +18,13 @@ On the face of it, it seems easy to analyse what we earn.  However, there is som
       ['Child benefit', 1651],
       ['Car boot sale profit', 65],
     ]);
-
-    // Set chart options
     var options = {'title':'Household earnings',
                    'width':500,
                    'height':300};
-
-    // Instantiate and draw our chart, passing in some options.
     var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
     chart.draw(data, options);
   }
 </script>
-
-## Recording our Earnings
-
 <div class="pull-right" id="chart_div"></div>
 
 We need to take into account all money coming in.  If we live with other people, for example in a family that pools its money, then it makes sense to do it for the family rather than just us as an individual.  This could be from a variety of sources:
