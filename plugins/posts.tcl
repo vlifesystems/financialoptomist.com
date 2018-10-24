@@ -184,7 +184,7 @@ proc posts::ProcessPostsDesc {
 
 
 proc posts::MakeExcerpt {partialContent} {
-  return [string range [strip_html $partialContent] 0 300]
+  return [string range [strip_html $partialContent] 0 200]
 }
 
 
