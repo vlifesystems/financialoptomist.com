@@ -96,3 +96,10 @@ dt {
 dd {
   margin-left: 1em;
 }
+
+div#cclicence {
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
