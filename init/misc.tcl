@@ -6,16 +6,6 @@ proc makeContent {dir file} {
   return [markdown -directory $dir -file [dict get $file filename]]
 }
 
-# dir is where the destination should be based off, such as docs
-proc makeDestination {dir filename} {
-  set filename [file tail $filename]
-  set ok [regexp {^(.*).md$} $filename match titleDir]
-  if {$ok} {
-    return [www::makeDestination $dir $titleDir index.html]
-  }
-  return -code error "invalid filename: $filename"
-}
-
 proc processDir {args} {
   set files [read -directory [dir content {*}$args] details.list]
   set files [lmap file $files {
