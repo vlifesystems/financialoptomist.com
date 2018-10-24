@@ -33,12 +33,39 @@ Below is a possible couple's luxury spending on a few items:
   <tr><td>Smoking 20 cigarettes a day<sup>1</sup></td><td class="text-right">335.00</td><td class="text-right">4,015</td</tr>
   <tr><td>Going out once a week for a drink for a couple<sup>2</sup></td><td class="text-right">303.33</td><td class="text-right">3,640</td></tr>
   <tr><td>Takeaway 1 night a week for a couple<sup>6</sup></td><td class="text-right">86.67</td><td class="text-right">1,040</td</tr>
-  <tr><td>Bought Sandwiches and Snack for Work for a Single Person<sup>4</sup></td><td class="text-right">60.00</td><td class="text-right">720</td></tr>
-  <tr><td>A Coffee from a Caf&eacute; 3 times a week<sup>7</sup></td><td class="text-right">6.60</td><td class="text-right">343</td></tr>
+  <tr><td>Bought sandwiches and snack for work for a single person<sup>4</sup></td><td class="text-right">60.00</td><td class="text-right">720</td></tr>
+  <tr><td>A coffee from a caf&eacute; 3 times a week<sup>7</sup></td><td class="text-right">6.60</td><td class="text-right">343</td></tr>
   <tr><td>Amazon Prime</td><td class="text-right">7.99</td><td class="text-right">96</td></tr>
   <tr><td>Netflix</td><td class="text-right">7.99</td><td class="text-right">96</td></tr>
   <tr><th>Total</th><th class="text-right">829.17</th><th class="text-right">9,950</th></tr>
 </table>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Luxury');
+    data.addColumn('number', 'Amount');
+    data.addRows([
+      ['Smoking 20 cigarettes a day', 4015],
+      ['Going out once a week for a drink for a couple', 3640],
+      ['Takeaway 1 night a week for a couple', 1040],
+      ['Bough sandwiches and snack for work for a single person', 720],
+      ['A coffee from a café 3 times a week', 343],
+      ['Amazon Prime', 96],
+      ['Netflix', 96],
+    ]);
+    var options = {'title':'Luxury Spending',
+                   'width':600,
+                   'height':400};
+    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+  }
+</script>
+<div class="pull-right" id="chart_div"></div>
 
 This is a considerable amount spent on luxuries.  When we see how it mounts up we may want to make different choices about what we do with our money.  If we reduce spending in some areas we could:
 
