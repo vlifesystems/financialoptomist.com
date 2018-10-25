@@ -1,0 +1,98 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>FinancialOptomist - We Can Improve Our Finances</title>
+  <link href="http://financialoptomist.com/feed.xml" rel="self"/>
+  <link href="http://financialoptomist.com"/>
+  <updated>2018-10-25</updated>
+  <id>http://financialoptomist.com/feed.xml</id>
+  <generator uri="https://github.com/lawrencewoodman/tekyll">teykll</generator>
+    <entry>
+      <title>SMART Saving</title>
+      <id>http://financialoptomist.com/articles/smart-saving/</id>
+      <link href="http://financialoptomist.com/articles/smart-saving/"/>
+        <author>
+          <name>Lawrence Woodman</name>
+          <uri>https://lawrencewoodman.github.io</uri>
+        </author>
+        <published>
+          2018-10-23
+        </published>
+
+        <updated>
+          2018-10-23
+        </updated>
+
+        <summary>There are many reasons to save and we should all aim to have savings appropriate to our situation and goals.  If we have savings there is less likelihood of our needing to borrow money at rates which w</summary>
+    </entry>
+    <entry>
+      <title>Boosting our Finances with Overtime</title>
+      <id>http://financialoptomist.com/articles/boosting-our-finances-with-overtime/</id>
+      <link href="http://financialoptomist.com/articles/boosting-our-finances-with-overtime/"/>
+        <author>
+          <name>Lawrence Woodman</name>
+          <uri>https://lawrencewoodman.github.io</uri>
+        </author>
+        <published>
+          2018-10-18
+        </published>
+
+        <updated>
+          2018-10-18
+        </updated>
+
+        <summary>If we work in a job where we can do a little overtime from time to time, it can really give a boost to our finances.  Even small amounts of overtime can add-up over a month or so.  This is particularly</summary>
+    </entry>
+    <entry>
+      <title>Putting Spending on Luxuries into Perspective</title>
+      <id>http://financialoptomist.com/articles/putting-spending-on-luxuries-into-perspective/</id>
+      <link href="http://financialoptomist.com/articles/putting-spending-on-luxuries-into-perspective/"/>
+        <author>
+          <name>Lawrence Woodman</name>
+          <uri>https://lawrencewoodman.github.io</uri>
+        </author>
+        <published>
+          2018-10-16
+        </published>
+
+        <updated>
+          2018-10-16
+        </updated>
+
+        <summary>We all have various expenses that we have to pay, but how much do we spend on luxuries?  By taking a good hard look, we may find better ways of using our money, particularly if we would like to spend m</summary>
+    </entry>
+    <entry>
+      <title>How to Identify Essential Expenses</title>
+      <id>http://financialoptomist.com/articles/how-to-identify-essential-expenses/</id>
+      <link href="http://financialoptomist.com/articles/how-to-identify-essential-expenses/"/>
+        <author>
+          <name>Lawrence Woodman</name>
+          <uri>https://lawrencewoodman.github.io</uri>
+        </author>
+        <published>
+          2018-10-14
+        </published>
+
+        <updated>
+          2018-10-14
+        </updated>
+
+        <summary>To really understand our finances we need to understand what are essential expenses for us, expenses that we have to pay.  By identifying those we can work out our minimum expenses and then plan our fi</summary>
+    </entry>
+    <entry>
+      <title>How to Analyse Earnings</title>
+      <id>http://financialoptomist.com/articles/how-to-analyse-earnings/</id>
+      <link href="http://financialoptomist.com/articles/how-to-analyse-earnings/"/>
+        <author>
+          <name>Lawrence Woodman</name>
+          <uri>https://lawrencewoodman.github.io</uri>
+        </author>
+        <published>
+          2018-10-13
+        </published>
+
+        <updated>
+          2018-10-13
+        </updated>
+
+        <summary>On the face of it, it seems easy to analyse what we earn.  However, there is sometimes money that we receive that we don't always consider our earnings or factor in when making financial decisions.  Th</summary>
+    </entry>
+</feed>
