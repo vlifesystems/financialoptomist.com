@@ -9,8 +9,6 @@
       [getparam content]
     </div>
 
-    <div class="container">
-      [include footer.html]
-    </div>
+    [include footer.html]
   </body>
 </html>
