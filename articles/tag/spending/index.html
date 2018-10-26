@@ -11,7 +11,7 @@
   <link href="/css/main.css" rel="stylesheet">
   <link rel="canonical" href="http://financialoptomist.com/articles/tag/spending/">
   <link rel="alternate" type="application/rss+xml" title="FinancialOptomist - We Can Improve Our Finances"
-        href="http://financialoptomist.com/feed.xml" />
+        href="http://feeds.feedburner.com/FinancialOptomist" />
   <script src="/js/jquery-3.3.1.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
 
@@ -100,8 +100,17 @@
 <div class="row">
   <div class="col-md-12">
     <p id="rss-subscribe">
-      Subscribe <a href="/feed.xml">via Atom</a>
+      Subscribe <a href="http://feeds.feedburner.com/FinancialOptomist">via Atom</a>
     </p>
+    <form id="email-subscribe" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=FinancialOptomist', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+  <p>Sign up to get new articles straight to your inbox.</p>
+  <p><input type="text" style="width:180px" name="email" placeholder="Email address"/>
+  <input type="hidden" value="FinancialOptomist" name="uri"/>
+  <input type="hidden" name="loc" value="en_US"/>
+  <input type="submit" value="Subscribe" /></p>
+  <p>Delivered by <a href="https://feedburner.google.com" target="_blank">FeedBurner</a></p>
+</form>
+
   </div>
 </div>
 
