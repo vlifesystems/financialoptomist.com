@@ -67,7 +67,7 @@ Below is a possible couple's luxury spending on a few items:
 </script>
 <div class="pull-right" id="chart_div"></div>
 
-This is a considerable amount spent on luxuries.  When we see how it mounts up we may want to make different choices about what we do with our money.  If we reduce spending in some areas we could:
+This is a considerable amount spent on luxuries.  When we see how it mounts up we may want to make different choices about what we do with our money.  We may also be more relaxed about some luxuries such as Amazon Prime, because its effect in isolation is quite small when compared to other luxuries.  If we reduce spending in some areas we could:
 
 * Buy a place of our own
 * Travel more
