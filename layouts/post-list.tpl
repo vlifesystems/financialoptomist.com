@@ -1,6 +1,7 @@
 !* commandSubst true
 ! source -directory [dir plugins] posts.tcl
 ! source -directory [dir plugins] www.tcl
+! source -directory [dir plugins] include.tcl
 <div class="row">
   <div class="col-md-12">
     <h1>Latest Articles</h1>
@@ -15,7 +16,8 @@
 <div class="row">
   <div class="col-md-12">
     <p id="rss-subscribe">
-      Subscribe <a href="[www::url "/feed.xml"]">via Atom</a>
+      Subscribe <a href="http://feeds.feedburner.com/FinancialOptomist">via Atom</a>
     </p>
+    [include email_subscription.html]
   </div>
 </div>

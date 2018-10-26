@@ -1,6 +1,7 @@
 !* commandSubst true variableSubst true
 ! source -directory [dir plugins] posts.tcl
 ! source -directory [dir plugins] www.tcl
+! source -directory [dir plugins] include.tcl
 ! set title [getparam title]
 ! set date [getparam date]
 <div class="row margin-buffer">
@@ -54,3 +55,12 @@
 !   set postListParams [dict create posts [getparam relatedPosts] maxPosts 6]
     [ornament -params $postListParams -directory [dir includes] -file post_list.html]
 ! }
+
+<div class="row">
+  <div class="col-md-12">
+    <p id="rss-subscribe">
+      Subscribe <a href="http://feeds.feedburner.com/FinancialOptomist">via Atom</a>
+    </p>
+    [include email_subscription.html]
+  </div>
+</div>
