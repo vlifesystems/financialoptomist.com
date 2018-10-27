@@ -102,7 +102,7 @@ Look at how this adds up after a number of years. If the couple can maintain a r
     ]);
 
     var options = {
-      title: 'Reducing in luxury spending',
+      title: 'Reduction in luxury spending',
       curveType: 'function',
       legend: { position: 'bottom' }
     };
