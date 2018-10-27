@@ -87,6 +87,33 @@ Look at how this adds up after a number of years. If the couple can maintain a r
   <tr><td>Completely eliminate</td><td class="text-right">9,950</td><td class="text-right">29,850</td><td class="text-right">39,800</td><td class="text-right">49,750</td></tr>
 </table>
 
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Years', 'A third', 'Half', 'Two thirds', 'Completely eliminate'],
+      ['1 year',  3317, 4975, 6633, 9950],
+      ['2 years',  6634, 9950, 13266, 19900],
+      ['3 years',  9951, 14925, 19899, 29850],
+      ['4 years',  13268, 19900, 26532, 39800],
+      ['5 years',  16585, 24875, 33165, 49750]
+    ]);
+
+    var options = {
+      title: 'Reducing in luxury spending',
+      curveType: 'function',
+      legend: { position: 'bottom' }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+    chart.draw(data, options);
+  }
+</script>
+<div id="curve_chart" style="width: 100%; height: 500px"></div>
+
 ## What Next?
 Now that we know what we are spending on luxuries we can start making more considered decisions about the effect our spending is having on our personal finances and on our life and financial goals. We can see where we can reduce our spending or have capacity to increase others such as the amount we save or give to charity. With some of the luxury spending it probably couldn't be excluded all together as for example with restaurants and take-aways we still need to eat even if not in this way. So a decrease in restaurant and take-away spending would mean a smaller increase in supermarket spending. However, now that we have the raw information we can start making those choices.
 <hr />
