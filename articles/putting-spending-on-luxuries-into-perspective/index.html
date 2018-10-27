@@ -9,6 +9,7 @@
   <meta name="description" content="We all have various expenses that we have to pay, but how much do we spend on luxuries?  By taking a good hard look, we may find better ways of using our money, ">
   <link href="/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/main.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
   <link rel="canonical" href="http://financialoptomist.com/articles/putting-spending-on-luxuries-into-perspective/">
   <link rel="alternate" type="application/rss+xml" title="FinancialOptomist - We Can Improve Our Finances"
         href="http://feeds.feedburner.com/FinancialOptomist" />
@@ -33,7 +34,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">FinancialOptomist</a>
+      <a class="navbar-brand" href="/">Financial Optomist</a>
     </div>
     <div id="navbar" class="collapse navbar-collapse navbar-right">
       <ul class="nav navbar-nav">
@@ -143,6 +144,32 @@
   <tr><td>Two Thirds</td><td class="text-right">6,633</td><td class="text-right">19,899</td><td class="text-right">26,532</td><td class="text-right">33,165</td></tr>
   <tr><td>Completely eliminate</td><td class="text-right">9,950</td><td class="text-right">29,850</td><td class="text-right">39,800</td><td class="text-right">49,750</td></tr>
 </table>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Years', 'A third', 'Half', 'Two thirds', 'Completely eliminate'],
+      ['1 year',  3317, 4975, 6633, 9950],
+      ['2 years',  6634, 9950, 13266, 19900],
+      ['3 years',  9951, 14925, 19899, 29850],
+      ['4 years',  13268, 19900, 26532, 39800],
+      ['5 years',  16585, 24875, 33165, 49750]
+    ]);
+
+    var options = {
+      title: 'Reducing in luxury spending',
+      curveType: 'function',
+      legend: { position: 'bottom' }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+    chart.draw(data, options);
+  }
+</script>
+<div id="curve_chart" style="width: 100%; height: 500px"></div>
 <h2>What Next?</h2>
 <p>Now that we know what we are spending on luxuries we can start making more considered decisions about the effect our spending is having on our personal finances and on our life and financial goals. We can see where we can reduce our spending or have capacity to increase others such as the amount we save or give to charity. With some of the luxury spending it probably couldn't be excluded all together as for example with restaurants and take-aways we still need to eat even if not in this way. So a decrease in restaurant and take-away spending would mean a smaller increase in supermarket spending. However, now that we have the raw information we can start making those choices.</p>
 <hr />
