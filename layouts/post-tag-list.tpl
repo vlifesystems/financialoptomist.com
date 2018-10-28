@@ -16,7 +16,7 @@
 <div class="row">
   <div class="col-md-12">
     <p id="rss-subscribe">
-      Subscribe <a href="http://feeds.feedburner.com/FinancialOptomist">via Atom</a>
+      Subscribe <a href="http://feeds.feedburner.com/MoneyLantern">via Atom</a>
     </p>
     [include email_subscription.html]
   </div>

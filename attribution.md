@@ -1,5 +1,5 @@
 # Image Attribution
-FinancialOptomist uses a number of third-party images which are detailed below.
+Money Lantern uses a number of third-party images which are detailed below.
 
 The following use a [CC0](https://creativecommons.org/publicdomain/zero/1.0/) licence.
 
