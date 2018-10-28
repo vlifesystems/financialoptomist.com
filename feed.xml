@@ -1,14 +1,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>FinancialOptomist - We Can Improve Our Finances</title>
-  <link href="http://financialoptomist.com/feed.xml" rel="self"/>
-  <link href="http://financialoptomist.com"/>
-  <updated>2018-10-27</updated>
-  <id>http://financialoptomist.com/feed.xml</id>
+  <title>Money Lantern - Shining a Light on Personal Finance</title>
+  <link href="https://moneylantern.com/feed.xml" rel="self"/>
+  <link href="https://moneylantern.com"/>
+  <updated>2018-10-28</updated>
+  <id>https://moneylantern.com/feed.xml</id>
   <generator uri="https://github.com/lawrencewoodman/tekyll">teykll</generator>
     <entry>
       <title>SMART Saving</title>
-      <id>http://financialoptomist.com/articles/smart-saving/</id>
-      <link href="http://financialoptomist.com/articles/smart-saving/"/>
+      <id>https://moneylantern.com/articles/smart-saving/</id>
+      <link href="https://moneylantern.com/articles/smart-saving/"/>
         <author>
           <name>Lawrence Woodman</name>
           <uri>https://lawrencewoodman.github.io</uri>
@@ -25,8 +25,8 @@
     </entry>
     <entry>
       <title>Boosting our Finances with Overtime</title>
-      <id>http://financialoptomist.com/articles/boosting-our-finances-with-overtime/</id>
-      <link href="http://financialoptomist.com/articles/boosting-our-finances-with-overtime/"/>
+      <id>https://moneylantern.com/articles/boosting-our-finances-with-overtime/</id>
+      <link href="https://moneylantern.com/articles/boosting-our-finances-with-overtime/"/>
         <author>
           <name>Lawrence Woodman</name>
           <uri>https://lawrencewoodman.github.io</uri>
@@ -43,8 +43,8 @@
     </entry>
     <entry>
       <title>Putting Spending on Luxuries into Perspective</title>
-      <id>http://financialoptomist.com/articles/putting-spending-on-luxuries-into-perspective/</id>
-      <link href="http://financialoptomist.com/articles/putting-spending-on-luxuries-into-perspective/"/>
+      <id>https://moneylantern.com/articles/putting-spending-on-luxuries-into-perspective/</id>
+      <link href="https://moneylantern.com/articles/putting-spending-on-luxuries-into-perspective/"/>
         <author>
           <name>Lawrence Woodman</name>
           <uri>https://lawrencewoodman.github.io</uri>
@@ -61,8 +61,8 @@
     </entry>
     <entry>
       <title>How to Identify Essential Expenses</title>
-      <id>http://financialoptomist.com/articles/how-to-identify-essential-expenses/</id>
-      <link href="http://financialoptomist.com/articles/how-to-identify-essential-expenses/"/>
+      <id>https://moneylantern.com/articles/how-to-identify-essential-expenses/</id>
+      <link href="https://moneylantern.com/articles/how-to-identify-essential-expenses/"/>
         <author>
           <name>Lawrence Woodman</name>
           <uri>https://lawrencewoodman.github.io</uri>
@@ -79,8 +79,8 @@
     </entry>
     <entry>
       <title>How to Analyse Earnings</title>
-      <id>http://financialoptomist.com/articles/how-to-analyse-earnings/</id>
-      <link href="http://financialoptomist.com/articles/how-to-analyse-earnings/"/>
+      <id>https://moneylantern.com/articles/how-to-analyse-earnings/</id>
+      <link href="https://moneylantern.com/articles/how-to-analyse-earnings/"/>
         <author>
           <name>Lawrence Woodman</name>
           <uri>https://lawrencewoodman.github.io</uri>
