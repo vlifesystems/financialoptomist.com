@@ -11,6 +11,7 @@ Money Lantern understands that privacy is important to you and will not
 * Your data may be stored and processed on servers anywhere in the world that Money Lantern or its associated company use for hosting and administering this website.
 * Money Lantern can contact you, using the email address that you have provided, for any reasonable administrative purposes.
 * In the event that Money Lantern is sold, it can be sold complete with the associated user data.
+* Money Lantern may use [cookies](https://cookiesandyou.com/) for advertising, analytics and any other use.
 
 You also agree to the the following for each third-party service used on or by Money Lantern:
 
