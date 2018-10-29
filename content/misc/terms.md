@@ -57,9 +57,7 @@ Money Lantern reserves the right to change or modify the terms and conditions at
 
 ## Advertising
 
-You agree and understand that Money Lantern may display ads and other information adjacent to and related to any information that you provide to or search for on the website. Money Lantern serves relevant ads using a semi-automated process that either targets dynamically changing content or cycles ads that may be of interest. In addition you agree and understand that some of the services that are used to provide the adverts may use cookies which are beyond the control of Money Lantern.
-
-Money Lantern is a participant in the Amazon Europe S.à r.l. Associates Programme, an affiliate advertising programme designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.co.uk.
+You agree and understand that Money Lantern may display ads and other information adjacent to and related to any information that you provide to or search for on the website.  In addition you agree and understand that some of the services that are used to provide the adverts may use cookies which are beyond the control of Money Lantern.
 
 
 ## Indemnity

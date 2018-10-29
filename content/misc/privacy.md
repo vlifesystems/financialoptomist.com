@@ -15,5 +15,9 @@ Money Lantern understands that privacy is important to you and will not
 
 You also agree to the the following for each third-party service used on or by Money Lantern:
 
+## Amazon
+Money Lantern is a participant in the Amazon Europe S.à r.l. Associates Programme, an affiliate advertising programme designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.co.uk.
+
+
 ## Google
 Google will use cookies to help supply relevant adverts and to provide reports to the owners of this site which describe how people use it and what they are interested in.  The adverts pay the running costs of the site and the reports help improve it.  Have a look at [how Google uses the data](http://www.google.com/intl/en/policies/privacy/partners/).
