@@ -6,6 +6,7 @@
   <div class="col-md-12">
     <div class="hero">
       <h1>Articles tagged with: [getparam tag]</h1>
+      <a class="pull-right btn btn-success btn-lg" href="/articles/">View All</a>
     </div>
   </div>
 </div>
