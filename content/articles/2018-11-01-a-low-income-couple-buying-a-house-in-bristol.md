@@ -126,4 +126,4 @@ It is impossible to predict the future, particularly over the time period that t
 
 Working towards better paying jobs will probably make the biggest difference and should be taken seriously as if they could both earn even an extra £1/hour, this would come to an extra £1820/year or £151/month.  Therefore the plan would become much quicker and easier to achieve.
 
-Now that the plan has been created it is clear that it can be done and they now need to take the first steps on what will be a long road, but with hard work and a bit of luck they will reach their goal and be able to buy a house of their own.
+Now that the plan has been created it is clear that it can be done and they now need to take the first steps on what will be a long road, but with hard work and a bit of luck they will reach their goal and be able to buy a place of their own.
