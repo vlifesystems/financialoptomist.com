@@ -1,3 +1,12 @@
+{ filename    2018-11-01-a-low-income-couple-buying-a-house-in-bristol.md
+  title       "A Low Income Couple Buying a House in Bristol"
+  author      {
+    name        "Lawrence Woodman"
+    url         "https://lawrencewoodman.github.io"
+  }
+  tags        {"Example"}
+}
+
 { filename    2018-10-23-smart-saving.md
   title       "SMART Saving"
   author      {
