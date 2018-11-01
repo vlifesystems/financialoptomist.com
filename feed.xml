@@ -2,9 +2,27 @@
   <title>Money Lantern - Shining a Light on Personal Finance</title>
   <link href="https://moneylantern.com/feed.xml" rel="self"/>
   <link href="https://moneylantern.com"/>
-  <updated>2018-10-29</updated>
+  <updated>2018-11-01</updated>
   <id>https://moneylantern.com/feed.xml</id>
   <generator uri="https://github.com/lawrencewoodman/tekyll">teykll</generator>
+    <entry>
+      <title>A Low Income Couple Buying a House in Bristol</title>
+      <id>https://moneylantern.com/articles/a-low-income-couple-buying-a-house-in-bristol/</id>
+      <link href="https://moneylantern.com/articles/a-low-income-couple-buying-a-house-in-bristol/"/>
+        <author>
+          <name>Lawrence Woodman</name>
+          <uri>https://lawrencewoodman.github.io</uri>
+        </author>
+        <published>
+          2018-11-01
+        </published>
+
+        <updated>
+          2018-11-01
+        </updated>
+
+        <summary>It is more difficult than it has been, but it is still possible to buy a house in large parts of the country, even on a low wage.  It does however require a plan, a lot of sacrifice and a bit of luck. </summary>
+    </entry>
     <entry>
       <title>SMART Saving</title>
       <id>https://moneylantern.com/articles/smart-saving/</id>
