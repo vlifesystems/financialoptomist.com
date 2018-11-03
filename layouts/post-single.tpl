@@ -11,6 +11,9 @@
         <a href="[www::url [getparam url]]" title="$title">
           <h1 itemprop="name">$title</h1>
         </a>
+        <div class="pull-right">
+          [include simple_share_buttons.html]
+        </div>
 !       if {![getparam -default false hideDate]} {
           <time datetime="[clock format $date -format {%Y-%m-%d}]">
             [clock format $date -format {%e %B %Y}]

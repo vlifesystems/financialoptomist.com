@@ -8,6 +8,11 @@ set imagesDir [dir content static img]
 file copy [file join $imagesDir *.jpg] \
           [www::makeDestination img]
 
+set socialImagesDir [dir content static img social_flat_rounded_rects_svg]
+file copy [file join $socialImagesDir *.svg] \
+          [www::makeDestination img social_flat_rounded_rects_svg]
+
+
 set fontsDir [dir content static fonts]
 file copy [file join $fontsDir *.eot] \
           [file join $fontsDir *.woff] \
