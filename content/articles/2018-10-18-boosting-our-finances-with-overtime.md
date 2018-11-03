@@ -27,51 +27,51 @@ If we look at the effect of various amounts of overtime, before tax and NI, over
   </tr>
   <tr>
     <td>&frac14; hour extra 3 days a week</td>
-    <td class="text-right">[lindex [overtime 0.75 week] 0]</td>
-    <td class="text-right">[lindex [overtime 0.75 week] 1]</td>
-    <td class="text-right">[lindex [overtime 0.75 week] 2]</td>
+    <td class="text-right">£[lindex [overtime 0.75 week] 0]</td>
+    <td class="text-right">£[lindex [overtime 0.75 week] 1]</td>
+    <td class="text-right">£[lindex [overtime 0.75 week] 2]</td>
   </tr>
   <tr>
     <td>&frac14; hour extra 5 days a week</td>
-    <td class="text-right">[lindex [overtime 1.25 week] 0]</td>
-    <td class="text-right">[lindex [overtime 1.25 week] 1]</td>
-    <td class="text-right">[lindex [overtime 1.25 week] 2]</td>
+    <td class="text-right">£[lindex [overtime 1.25 week] 0]</td>
+    <td class="text-right">£[lindex [overtime 1.25 week] 1]</td>
+    <td class="text-right">£[lindex [overtime 1.25 week] 2]</td>
   </tr>
   <tr>
     <td>&frac12; hour extra 3 days a week</td>
-    <td class="text-right">[lindex [overtime 1.5 week] 0]</td>
-    <td class="text-right">[lindex [overtime 1.5 week] 1]</td>
-    <td class="text-right">[lindex [overtime 1.5 week] 2]</td>
+    <td class="text-right">£[lindex [overtime 1.5 week] 0]</td>
+    <td class="text-right">£[lindex [overtime 1.5 week] 1]</td>
+    <td class="text-right">£[lindex [overtime 1.5 week] 2]</td>
   </tr>
   <tr>
     <td>&frac12; hour extra 5 days a week</td>
-    <td class="text-right">[lindex [overtime 2.5 week] 0]</td>
-    <td class="text-right">[lindex [overtime 2.5 week] 1]</td>
-    <td class="text-right">[lindex [overtime 2.5 week] 2]</td>
+    <td class="text-right">£[lindex [overtime 2.5 week] 0]</td>
+    <td class="text-right">£[lindex [overtime 2.5 week] 1]</td>
+    <td class="text-right">£[lindex [overtime 2.5 week] 2]</td>
   </tr>
   <tr>
     <td>1 hour extra 1 day a week</td>
-    <td class="text-right">[lindex [overtime 1 week] 0]</td>
-    <td class="text-right">[lindex [overtime 1 week] 1]</td>
-    <td class="text-right">[lindex [overtime 1 week] 2]</td>
+    <td class="text-right">£[lindex [overtime 1 week] 0]</td>
+    <td class="text-right">£[lindex [overtime 1 week] 1]</td>
+    <td class="text-right">£[lindex [overtime 1 week] 2]</td>
   </tr>
   <tr>
     <td>1 hour extra 2 days a week</td>
-    <td class="text-right">[lindex [overtime 2 week] 0]</td>
-    <td class="text-right">[lindex [overtime 2 week] 1]</td>
-    <td class="text-right">[lindex [overtime 2 week] 2]</td>
+    <td class="text-right">£[lindex [overtime 2 week] 0]</td>
+    <td class="text-right">£[lindex [overtime 2 week] 1]</td>
+    <td class="text-right">£[lindex [overtime 2 week] 2]</td>
   </tr>
   <tr>
     <td>7 hours extra a month</td>
-    <td class="text-right">[lindex [overtime 7 month] 0]</td>
-    <td class="text-right">[lindex [overtime 7 month] 1]</td>
-    <td class="text-right">[lindex [overtime 7 month] 2]</td>
+    <td class="text-right">£[lindex [overtime 7 month] 0]</td>
+    <td class="text-right">£[lindex [overtime 7 month] 1]</td>
+    <td class="text-right">£[lindex [overtime 7 month] 2]</td>
   </tr>
   <tr>
     <td>10 hours extra a month</td>
-    <td class="text-right">[lindex [overtime 10 month] 0]</td>
-    <td class="text-right">[lindex [overtime 10 month] 1]</td>
-    <td class="text-right">[lindex [overtime 10 month] 2]</td>
+    <td class="text-right">£[lindex [overtime 10 month] 0]</td>
+    <td class="text-right">£[lindex [overtime 10 month] 1]</td>
+    <td class="text-right">£[lindex [overtime 10 month] 2]</td>
   </tr>
 </table>
 
