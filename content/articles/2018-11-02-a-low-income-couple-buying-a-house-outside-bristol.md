@@ -1,7 +1,7 @@
 It is more difficult than it has been, but it is still possible to buy a house in large parts of the country, even on a low wage.  It does however require a plan.  A young couple renting in Bristol want a place of their own, here is how they could go about it.  Bristol is quite a good area to use as an example because house prices and rent are relatively high both here and in the surrounding area, but not as extreme as London.  Therefore what works here would work in most parts of the country and in many areas would be much easier.
 
-## Earnings
-The couple both work 35 hours a week for £8/hr, which is a little more than the current minimum wage, but less than the proposed minimum wage from April 2019.  This gives them joint earnings of £29,120.  After tax, NI and workplace pension (4% from April 2019) they are left with: £25,401.  Throughout the year they may be able to earn a little extra through [overtime](/articles/boosting-our-finances-with-overtime/) but this will be unpredictable.
+## Income
+The couple both work 35 hours a week for £8/hr, which is a little more than the current minimum wage, but less than the proposed minimum wage from April 2019.  This gives them a joint income of £29,120.  After tax, NI and workplace pension (4% from April 2019) they are left with: £25,401.  Throughout the year they may be able to earn a little extra through [overtime](/articles/boosting-our-finances-with-overtime/) but this will be unpredictable.
 
 ## Mortgage
 The couple look into how much they are likely to be able to borrow and assuming 4 times their joint income it is likely to be around £116,000 as they have no debts and a good credit history.  However, they will assume a little lower at £110,000 to be surer in their plans.  If the mortgage rate was 3.9% over 25 years then the repayment would be £575/month.  This is much less than the £800/month they are currently paying in rent.
