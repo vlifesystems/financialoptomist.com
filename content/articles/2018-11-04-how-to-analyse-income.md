@@ -55,7 +55,7 @@ Income that we know we are likely to get to some degree, but don't know how much
 * Profit from the odd car-boot sale
 * Money from parents or other family members
 
-We could compile our irregular income into a table with the minimum and maximum likely amounts.  Depending on how certain we are about the minimum likely amounts we could then include those in our total income calculations.  We can also plan what we'll do if we receive more than our minimum likely amounts.
+We could compile our irregular income into a table with the minimum and maximum likely amounts.  Depending on how certain we are about the minimum likely amounts we could then include those in our total income calculations.  We can also plan what we'll do if we receive more than our minimum likely amounts - part of this could be used to help stay motivated by treating ourselves as a reward for sticking to a budget.
 <table class="table table-bordered hand-written">
   <tr><th>Source</th><th class="text-right">Minimum Likely Amount</th><th class="text-right">Maximum Likely Amount</th></tr>
   <tr><td>Overtime</td><td class="text-right">£220</td><td class="text-right">£840</td></tr>
