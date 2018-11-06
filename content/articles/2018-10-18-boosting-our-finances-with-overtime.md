@@ -73,6 +73,53 @@ If we look at the effect of various amounts of overtime, before tax and NI, over
     <td class="text-right">£[lindex [overtime 10 month] 1]</td>
     <td class="text-right">£[lindex [overtime 10 month] 2]</td>
   </tr>
+  <tr>
+    <td>14 hours extra a month</td>
+    <td class="text-right">£[lindex [overtime 14 month] 0]</td>
+    <td class="text-right">£[lindex [overtime 14 month] 1]</td>
+    <td class="text-right">£[lindex [overtime 14 month] 2]</td>
+  </tr>
 </table>
 
-We can see above how overtime can re-balance our finaces.  For example, doing &frac12; hours's overtime 5 days a week, would return an extra £[lindex [overtime 2.5 week] 1] after 3 months - pretty handy near Christmas.
+!* commandSubst false variableSubst true
+!  set 1hr12m [expr {[lindex [overtime 1 month] 2]}]
+!  set 2hr12m [expr {[lindex [overtime 2 month] 2]}]
+!  set 4hr12m [expr {[lindex [overtime 4 month] 2]}]
+!  set 7hr12m [expr {[lindex [overtime 7 month] 2]}]
+!  set 10hr12m [expr {[lindex [overtime 10 month] 2]}]
+!  set 14hr12m [expr {[lindex [overtime 14 month] 2]}]
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Months', '1 hr/mth', '2 hr/mth', '4 hr/mth', '7 hr/mth', '10 hr/mth', '14 hr/mth'],
+      [0, 0, 0, 0, 0, 0, 0],
+      [12,  $1hr12m, $2hr12m, $4hr12m, $7hr12m, $10hr12m, $14hr12m]
+    ]);
+
+    var options = {
+      title: 'Overtime',
+      curveType: 'function',
+      legend: { position: 'bottom' },
+      hAxis: {
+        title: 'Months',
+        viewWindow: {
+            min:0
+        },
+        format: '0'
+      }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+    chart.draw(data, options);
+  }
+</script>
+<div id="curve_chart" style="width: 100%; height: 500px"></div>
+!* commandSubst true
+
+
+We can see above how overtime can re-balance our finances.  For example, doing 10 hours overtime a month, equivalent to &frac12; hour's overtime 5 days a week, would return an extra £[lindex [overtime 2.5 week] 1] after 3 months - pretty handy near Christmas or alternatively used for a treat as a reward for sticking to a budget.
