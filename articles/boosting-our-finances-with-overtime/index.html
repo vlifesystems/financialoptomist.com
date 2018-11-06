@@ -175,8 +175,45 @@
     <td class="text-right">£240</td>
     <td class="text-right">£960</td>
   </tr>
+  <tr>
+    <td>14 hours extra a month</td>
+    <td class="text-right">£112</td>
+    <td class="text-right">£336</td>
+    <td class="text-right">£1344</td>
+  </tr>
 </table>
-<p>We can see above how overtime can re-balance our finaces.  For example, doing ½ hours's overtime 5 days a week, would return an extra £240 after 3 months - pretty handy near Christmas.</p>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Months', '1 hr/mth', '2 hr/mth', '4 hr/mth', '7 hr/mth', '10 hr/mth', '14 hr/mth'],
+      [0, 0, 0, 0, 0, 0, 0],
+      [12,  96, 192, 384, 672, 960, 1344]
+    ]);
+
+    var options = {
+      title: 'Overtime',
+      curveType: 'function',
+      legend: { position: 'bottom' },
+      hAxis: {
+        title: 'Months',
+        viewWindow: {
+            min:0
+        },
+        format: '0'
+      }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+    chart.draw(data, options);
+  }
+</script>
+<div id="curve_chart" style="width: 100%; height: 500px"></div>
+<p>We can see above how overtime can re-balance our finances.  For example, doing 10 hours overtime a month, equivalent to ½ hour's overtime 5 days a week, would return an extra £240 after 3 months - pretty handy near Christmas or alternatively used for a treat as a reward for sticking to a budget.</p>
       </div>
     </article>
   </div>

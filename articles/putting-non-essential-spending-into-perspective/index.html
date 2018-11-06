@@ -188,7 +188,7 @@
 <li>Donate more to charity</li>
 <li>The options are endless</li>
 </ul>
-<p>Look at how this adds up after a number of years. If the couple can maintain a reduction for a few years and save it away they would have enough to do something significant with it such as put down a deposit on a place of their own.</p>
+<p>Look at how this adds up after a number of years. This is without even taking into account any interest that may be able to be earned on the savings.  If the couple can maintain a reduction for a few years and save it away they would have enough to do something significant with it such as put down a deposit on a place of their own.</p>
 <table class="table table-bordered hand-written">
   <tr><th>Reduction in non-essential spending</th><th class="text-right">1 year</th><th class="text-right">3 years</th><th class="text-right">4 years</th><th class="text-right">5 years</th></tr>
   <tr><td>A Third</td><td class="text-right">£3,317</td><td class="text-right">£9,951</td><td class="text-right">£13,268</td><td class="text-right">£16,585</td></tr>
@@ -203,17 +203,25 @@
   function drawChart() {
     var data = google.visualization.arrayToDataTable([
       ['Years', 'A third', 'Half', 'Two thirds', 'Completely eliminate'],
-      ['1 year',  3317, 4975, 6633, 9950],
-      ['2 years',  6634, 9950, 13266, 19900],
-      ['3 years',  9951, 14925, 19899, 29850],
-      ['4 years',  13268, 19900, 26532, 39800],
-      ['5 years',  16585, 24875, 33165, 49750]
+      [0,  0, 0, 0, 0],
+      [1,  3317, 4975, 6633, 9950],
+      [2,  6634, 9950, 13266, 19900],
+      [3,  9951, 14925, 19899, 29850],
+      [4,  13268, 19900, 26532, 39800],
+      [5,  16585, 24875, 33165, 49750]
     ]);
 
     var options = {
       title: 'Reduction in non-essential spending',
       curveType: 'function',
-      legend: { position: 'bottom' }
+      legend: { position: 'bottom' },
+      hAxis: {
+        title: 'Years',
+        viewWindow: {
+            min:0
+        },
+        format: '0'
+      }
     };
 
     var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
