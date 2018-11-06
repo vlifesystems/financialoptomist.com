@@ -43,8 +43,7 @@ Compile all income for the year into a table so that we can see what is coming i
   <tr><td>Joint take home pay from jobs</td><td class="text-right">£27,000</td></tr>
   <tr><td>Child tax credits</td><td class="text-right">£4,680</td></tr>
   <tr><td>Child benefit</td><td class="text-right">£1,651</td></tr>
-  <tr><td>Car-boot sale profit</td><td class="text-right">£65</td></tr>
-  <tr><th>Total</th><th class="text-right">£33,396</th></tr>
+  <tr><th>Total</th><th class="text-right">£33,331</th></tr>
 </table>
 
 ### Irregular Income
