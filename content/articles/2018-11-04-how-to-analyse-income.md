@@ -64,4 +64,4 @@ We could compile our irregular income into a table with the minimum and maximum 
 </table>
 
 ## Where Now?
-Now that we know what we have coming in, we can start making more informed decisions about our finances.  We may plan to [save](/articles/tag/saving/) more, [earn](http://localhost:8780/articles/tag/income/) more, or reduce our [spending](http://localhost:8780/articles/tag/spending/).
+Now that we know what we have coming in, we can start making more informed decisions about our finances.  We may plan to [save](/articles/tag/saving/) more, [earn](/articles/tag/income/) more, or reduce our [spending](/articles/tag/spending/).
