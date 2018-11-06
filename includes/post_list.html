@@ -4,7 +4,7 @@
 !  foreach post [getparam posts] {
 !    dict set post postNum $numPosts
 !    incr numPosts
-!    if {[getparam maxPosts] != 0 && $numPosts >= [getparam maxPosts]} {
+!    if {[getparam maxPosts] != 0 && $numPosts > [getparam maxPosts]} {
 !      break
 !    }
      [ornament -params $post -directory [dir includes] -file post_box_summary.html]

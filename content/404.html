@@ -22,7 +22,7 @@
 !   foreach post $posts {
 !     dict set post postNum $numPosts
 !     incr numPosts
-!     if {$numPosts >= 6} {
+!     if {$numPosts > 6} {
 !       break
 !     }
       [ornament -params $post -directory [dir includes] -file post_box_summary.html]
