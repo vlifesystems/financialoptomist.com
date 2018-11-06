@@ -55,12 +55,12 @@ Some expenses are a mix of essential and luxury.  For these try to keep to a min
 
 We need to check for any variance in the figures and factor that in as well as planned expenses that didn't occur during the period analysed.
 
-Exclude expenses which you aren't sure whether you will incur but want to plan for, such as car maintenance, as you can save for these separately.
+Exclude expenses which we aren't sure whether we will incur but want to plan for, such as car maintenance, as we can save for these separately.
 
 ## Compile Expenditure for Year
 Now that we have a record of our essential expenses for a period we can create a picture of our essential expenses for the year.  By adding the amounts together into groups and multiplying it by the number of times that the period analysed occurs in the year.  E.g.  for a period of 3 months we multiple the figures by 4 to represent a year.
 
-Finally we get a table covering our yearly essential expenditure as shown below.  When you see the figures added up over the year it can be quite an eye-opener.
+Finally we get a table covering our yearly essential expenditure as shown below.  Seeing the figures added up over the year can be quite an eye-opener.
 
 <table class="table table-bordered hand-written">
   <tr><th>Purpose</th><th class="text-right">Amount</th></tr>
