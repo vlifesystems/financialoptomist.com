@@ -11,6 +11,8 @@
   </div>
 </div>
 
+<div class="margin-buffer"></div>
+
 ! set postListParams [dict create posts [getparam posts] maxPosts 0]
 [ornament -params $postListParams -directory [dir includes] -file post_list.html]
 
