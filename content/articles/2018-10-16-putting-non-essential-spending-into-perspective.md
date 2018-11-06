@@ -77,7 +77,7 @@ This is a considerable amount spent on non-essentials.  When we see how it mount
 * Donate more to charity
 * The options are endless
 
-Look at how this adds up after a number of years. If the couple can maintain a reduction for a few years and save it away they would have enough to do something significant with it such as put down a deposit on a place of their own.
+Look at how this adds up after a number of years. This is without even taking into account any interest that may be able to be earned on the savings.  If the couple can maintain a reduction for a few years and save it away they would have enough to do something significant with it such as put down a deposit on a place of their own.
 
 <table class="table table-bordered hand-written">
   <tr><th>Reduction in non-essential spending</th><th class="text-right">1 year</th><th class="text-right">3 years</th><th class="text-right">4 years</th><th class="text-right">5 years</th></tr>
