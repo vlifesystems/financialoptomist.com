@@ -94,17 +94,25 @@ Look at how this adds up after a number of years. This is without even taking in
   function drawChart() {
     var data = google.visualization.arrayToDataTable([
       ['Years', 'A third', 'Half', 'Two thirds', 'Completely eliminate'],
-      ['1 year',  3317, 4975, 6633, 9950],
-      ['2 years',  6634, 9950, 13266, 19900],
-      ['3 years',  9951, 14925, 19899, 29850],
-      ['4 years',  13268, 19900, 26532, 39800],
-      ['5 years',  16585, 24875, 33165, 49750]
+      [0,  0, 0, 0, 0],
+      [1,  3317, 4975, 6633, 9950],
+      [2,  6634, 9950, 13266, 19900],
+      [3,  9951, 14925, 19899, 29850],
+      [4,  13268, 19900, 26532, 39800],
+      [5,  16585, 24875, 33165, 49750]
     ]);
 
     var options = {
       title: 'Reduction in non-essential spending',
       curveType: 'function',
-      legend: { position: 'bottom' }
+      legend: { position: 'bottom' },
+      hAxis: {
+        title: 'Years',
+        viewWindow: {
+            min:0
+        },
+        format: '0'
+      }
     };
 
     var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
