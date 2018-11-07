@@ -9,6 +9,7 @@
       [getparam content]
     </div>
 
+    <div class="margin-buffer"></div>
     [include footer.html]
   </body>
 </html>

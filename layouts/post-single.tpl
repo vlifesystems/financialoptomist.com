@@ -64,5 +64,3 @@
     [include email_subscription.html]
   </div>
 </div>
-
-<div class="margin-buffer"></div>
