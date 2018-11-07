@@ -7,8 +7,12 @@ file copy [file join $cssDir *.css] \
 set imagesDir [dir content static img]
 file copy [file join $imagesDir *.jpg] \
           [file join $imagesDir *.png] \
-          [file join $imagesDir *.svg] \
           [www::makeDestination img]
+
+set contactIconsDir [dir content static img contact_icons]
+file copy [file join $contactIconsDir *.svg] \
+          [www::makeDestination img contact_icons]
+
 
 set socialImagesDir [dir content static img social_flat_rounded_rects_svg]
 file copy [file join $socialImagesDir *.svg] \
