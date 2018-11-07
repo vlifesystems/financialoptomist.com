@@ -6,6 +6,7 @@ file copy [file join $cssDir *.css] \
 
 set imagesDir [dir content static img]
 file copy [file join $imagesDir *.jpg] \
+          [file join $imagesDir *.png] \
           [www::makeDestination img]
 
 set socialImagesDir [dir content static img social_flat_rounded_rects_svg]

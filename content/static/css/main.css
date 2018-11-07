@@ -4,10 +4,12 @@ body {
   font-size: 14pt;
 }
 
-.navbar-default .navbar-brand {
-  font-family: 'Abril Fatface';
-  font-size: 150%;
-  color: #555;
+.navbar-header {
+  min-height: 90px;
+}
+
+.navbar-brand > img {
+  height: 60px;
 }
 
 .margin-buffer { margin-bottom: 30px; }
