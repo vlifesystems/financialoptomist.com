@@ -12,6 +12,54 @@ body {
   height: 60px;
 }
 
+.navbar-right > .navbar-right {
+  margin-right: -15px;
+}
+
+ul.navbar-nav a {
+  margin-right: 0;
+  padding-right: 0;
+  margin-left: 1em;
+}
+
+ul.contact-buttons{
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 1em;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+ul.contact-buttons li {
+  display: inline;
+}
+
+ul.contact-buttons li a {
+  padding-left: 5px;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+/*
+ul.contact-buttons .sr-only{
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+*/
+
+ul.contact-buttons img{
+  width: 32px;
+}
+
 .margin-buffer { margin-bottom: 30px; }
 
 .post-box-outer {
@@ -145,9 +193,16 @@ form#email-subscribe {
 
 /* Simple Sharing Buttons
    https://simplesharingbuttons.com */
+div.share-box {
+  border: 1px #c5c5c5 solid;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
 ul.share-buttons{
   list-style: none;
   padding: 0;
+  margin-bottom: 0;
 }
 
 ul.share-buttons li{
