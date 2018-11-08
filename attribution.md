@@ -15,3 +15,5 @@ The following use a [Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licen
 * [Header - GitHub](https://www.iconfinder.com/icons/279371/github_logo_social_social_network_source_icon)
 
 The social media icons used to share the articles are from: [https://simplesharingbuttons.com](https://simplesharingbuttons.com) and are licensed under a [CC By 3.0](https://creativecommons.org/licenses/by/3.0/) licence.
+
+The favicons were created with [faviconit](http://faviconit.com).

@@ -18,6 +18,11 @@ set socialImagesDir [dir content static img social_flat_rounded_rects_svg]
 file copy [file join $socialImagesDir *.svg] \
           [www::makeDestination img social_flat_rounded_rects_svg]
 
+set faviconsDir [dir content static favicons]
+file copy [file join $faviconsDir *.ico] \
+          [file join $faviconsDir *.png] \
+          [file join $faviconsDir *.xml] \
+          [www::makeDestination]
 
 set fontsDir [dir content static fonts]
 file copy [file join $fontsDir *.eot] \
