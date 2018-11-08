@@ -195,12 +195,6 @@ form#email-subscribe {
 
 /* Simple Sharing Buttons
    https://simplesharingbuttons.com */
-div.share-box {
-  border: 1px #c5c5c5 solid;
-  padding: 6px;
-  margin-bottom: 10px;
-}
-
 ul.share-buttons{
   list-style: none;
   padding: 0;
