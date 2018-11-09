@@ -9,18 +9,28 @@
     <article itemscope itemtype="http://schema.org/BlogPosting">
       <header>
         <a href="[www::url [getparam url]]" title="$title">
-          <h1 itemprop="name">$title</h1>
+          <h1 itemprop="headline name">$title</h1>
         </a>
         <div class="pull-right">
           [include simple_share_buttons.html]
         </div>
 !       if {![getparam -default false hideDate]} {
-          <time datetime="[clock format $date -format {%Y-%m-%d}]">
+          <time itemprop="datePublished"
+                datetime="[clock format $date -format {%Y-%m-%d}]">
             [clock format $date -format {%e %B %Y}]
           </time>
           &nbsp; / &nbsp;
 !       }
-        <a href="[getparam author url]">[getparam author name]</a>
+        <span itemscope itemprop="publisher"
+              itemtype="http://schema.org/Organisation">
+          <meta itemprop="name" content="Money Lantern" />
+          <meta itemprop="url" content="https://moneylantern.com" />
+        </span>
+        <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+          <a rel="author" itemprop="url" href="[getparam author url]">
+            <span itemprop="name">[getparam author name]</span>
+          </a>
+        </span>
         &nbsp; / &nbsp;
 !       foreach tag [getparam tags] {
           <a href="[www::url "/articles/tag/[posts::tagToDirName $tag]/"]">$tag</a>
