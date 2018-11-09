@@ -144,7 +144,7 @@
     <article itemscope itemtype="http://schema.org/BlogPosting">
       <header>
         <a href="/articles/how-to-analyse-income/" title="How to Analyse Income">
-          <h1 itemprop="name">How to Analyse Income</h1>
+          <h1 itemprop="headline name">How to Analyse Income</h1>
         </a>
         <div class="pull-right">
           <ul class="share-buttons">
@@ -155,11 +155,21 @@
 </ul>
 
         </div>
-          <time datetime="2018-11-04">
+          <time itemprop="datePublished"
+                datetime="2018-11-04">
              4 November 2018
           </time>
           &nbsp; / &nbsp;
-        <a href="https://lawrencewoodman.github.io">Lawrence Woodman</a>
+        <span itemscope itemprop="publisher"
+              itemtype="http://schema.org/Organisation">
+          <meta itemprop="name" content="Money Lantern" />
+          <meta itemprop="url" content="https://moneylantern.com" />
+        </span>
+        <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+          <a rel="author" itemprop="url" href="https://lawrencewoodman.github.io">
+            <span itemprop="name">Lawrence Woodman</span>
+          </a>
+        </span>
         &nbsp; / &nbsp;
           <a href="/articles/tag/income/">Income</a>
           &nbsp; &nbsp;
