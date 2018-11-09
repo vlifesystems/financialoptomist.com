@@ -26,7 +26,7 @@
           <meta itemprop="name" content="Money Lantern" />
           <meta itemprop="url" content="https://moneylantern.com" />
           <meta itemprop="logo"
-                content="/img/money_lantern_lower_income_uk_personal_finance.png" />
+                content="https://moneylantern.com/img/money_lantern_lower_income_uk_personal_finance.png" />
         </span>
         <span itemscope itemprop="author" itemtype="http://schema.org/Person">
           <a rel="author" itemprop="url" href="[getparam author url]">
