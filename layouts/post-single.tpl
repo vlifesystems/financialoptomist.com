@@ -22,7 +22,7 @@
           &nbsp; / &nbsp;
 !       }
         <span itemscope itemprop="publisher"
-              itemtype="http://schema.org/Organisation">
+              itemtype="http://schema.org/Organization">
           <meta itemprop="name" content="Money Lantern" />
           <meta itemprop="url" content="https://moneylantern.com" />
         </span>
