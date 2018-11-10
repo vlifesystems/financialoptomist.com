@@ -127,6 +127,6 @@ There are any number of things that could make keeping to the plan more difficul
 ## Where Now?
 It is impossible to predict the future, particularly over the time period that this plan will require.  Changes to house prices, interest rates, inflation, tax, minimum wage, have all been ignored because there is no way that we can know how these will change.  The plan has to be regularly revisited.  Opportunities such as better saving interest rates need to be grasped.
 
-Working towards [better paying jobs](/articles/even-small-hourly-wage-increases-make-a-difference/) will probably make the biggest difference and should be taken seriously as if they could both earn even an extra £1/hour, this would come to an extra £3,640/year or £303/month - reducing the time to achieve their plan by over 9 months.
+Working towards [better paying jobs](/articles/small-hourly-wage-increases-make-a-difference/) will probably make the biggest difference and should be taken seriously as if they could both earn even an extra £1/hour, this would come to an extra £3,640/year or £303/month - reducing the time to achieve their plan by over 9 months.
 
 Now that the plan has been created it is clear that it can be done and they now need to take the first steps on what will be a long road, but with hard work and a bit of luck they will reach their goal and be able to buy a place of their own.
