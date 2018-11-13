@@ -2,9 +2,27 @@
   <title>Money Lantern - Lower Income UK Personal Finance</title>
   <link href="https://moneylantern.com/feed.xml" rel="self"/>
   <link href="https://moneylantern.com"/>
-  <updated>2018-11-10</updated>
+  <updated>2018-11-13</updated>
   <id>https://moneylantern.com/feed.xml</id>
   <generator uri="https://github.com/lawrencewoodman/tekyll">teykll</generator>
+    <entry>
+      <title>Sweeping Current Accounts</title>
+      <id>https://moneylantern.com/articles/sweeping-current-accounts/</id>
+      <link href="https://moneylantern.com/articles/sweeping-current-accounts/"/>
+        <author>
+          <name>Lawrence Woodman</name>
+          <uri>https://lawrencewoodman.github.io</uri>
+        </author>
+        <published>
+          2018-11-13
+        </published>
+
+        <updated>
+          2018-11-13
+        </updated>
+
+        <summary>Our expenses will rarely be the same from one month to the next and therefore there will be times when our current account has 'excess' money in it.  If we are keeping to a budget and at times manage t</summary>
+    </entry>
     <entry>
       <title>Small Hourly Wage Increases Make a Difference</title>
       <id>https://moneylantern.com/articles/small-hourly-wage-increases-make-a-difference/</id>
