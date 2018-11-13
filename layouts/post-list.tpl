@@ -9,7 +9,7 @@
 </div>
 
 ! set posts [posts::sort [collection get articles-posts]]
-! set postListParams [dict create posts $posts maxPosts 6]
+! set postListParams [dict create posts $posts maxPosts 0]
 [ornament -params $postListParams -directory [dir includes] -file post_list.html]
 
 <div class="row">
