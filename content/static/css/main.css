@@ -111,6 +111,10 @@ table.hand-written {
   margin-bottom: 2em;
 }
 
+.text-monospace {
+  font-family: monospace;
+}
+
 hr {
   border-color: #DDD;
 }
