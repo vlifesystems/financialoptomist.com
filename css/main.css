@@ -104,33 +104,6 @@ header a h1 {
   color: black;
 }
 
-table.hand-written {
-  font-family: "Lucida Console", Monaco, monospace;
-  color: #714f15;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-.text-monospace {
-  font-family: monospace;
-}
-
-hr {
-  border-color: #DDD;
-}
-
-sup {
-  opacity: 0.8;
-}
-
-dt {
-  margin-top: 0.75em;
-}
-
-dd {
-  margin-left: 1em;
-}
-
 div#cclicence {
   border-top: 1px solid #DDD;
   border-bottom: 1px solid #DDD;
