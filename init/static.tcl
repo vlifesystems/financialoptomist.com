@@ -20,6 +20,7 @@ file copy [file join $socialImagesDir *.svg] \
 
 set twitterImagesDir [dir content static img twitter_images]
 file copy [file join $twitterImagesDir *.jpeg] \
+          [file join $twitterImagesDir *.jpg] \
           [www::makeDestination img twitter_images]
 
 set faviconsDir [dir content static favicons]
