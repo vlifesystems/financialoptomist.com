@@ -18,6 +18,10 @@ set socialImagesDir [dir content static img social_flat_rounded_rects_svg]
 file copy [file join $socialImagesDir *.svg] \
           [www::makeDestination img social_flat_rounded_rects_svg]
 
+set twitterImagesDir [dir content static img twitter_images]
+file copy [file join $twitterImagesDir *.jpeg] \
+          [www::makeDestination img twitter_images]
+
 set faviconsDir [dir content static favicons]
 file copy [file join $faviconsDir *.ico] \
           [file join $faviconsDir *.png] \

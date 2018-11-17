@@ -17,3 +17,9 @@ The following use a [Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licen
 The social media icons used to share the articles are from: [https://simplesharingbuttons.com](https://simplesharingbuttons.com) and are licensed under a [CC By 3.0](https://creativecommons.org/licenses/by/3.0/) licence.
 
 The favicons were created with [faviconit](http://faviconit.com).
+
+The following use the [Pexels Licence](https://www.pexels.com/photo-license/).
+
+Images for Twitter:
+
+[Person holding silver keys in front of house](https://www.pexels.com/photo/person-holding-silver-keys-1166414/)

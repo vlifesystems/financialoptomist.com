@@ -16,6 +16,10 @@
   <meta name="twitter:site" content="@moneylantern">
   <meta name="twitter:title" content="$title">
   <meta name="twitter:description" content="$desc">
+! if {[getparam -noerror twitterImg] != ""} {
+    <meta name="twitter:image"
+         content="[www::url -full "/img/twitter_images/[getparam twitterImg]"]">
+! }
   <!-- *** Twitter Card *** -->
 
 !* commandSubst false

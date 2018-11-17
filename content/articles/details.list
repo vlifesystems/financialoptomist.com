@@ -31,6 +31,7 @@
     name        "Lawrence Woodman"
     url         "https://lawrencewoodman.github.io"
   }
+  twitterImg  "house-key-square.jpeg"
   tags        {"Example"}
 }
 
