@@ -26,7 +26,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="$title">
   <meta property="og:description" content="$desc">
-  <meta property="og:url" href="[www::url -canonical [getparam url]]">
+  <meta property="og:url" content="[www::url -canonical [getparam url]]">
 ! if {[getparam -noerror socialImg] != ""} {
     <meta property="og:image"
          content="[www::url -full "/img/social_images/[getparam socialImg]"]">
