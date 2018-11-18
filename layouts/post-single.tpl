@@ -21,6 +21,10 @@
           </time>
           &nbsp; / &nbsp;
 !       }
+!       if {[getparam -noerror socialImg] != ""} {
+          <meta itemprop="image"
+                content="[www::url -full "/img/social_images/[getparam socialImg]"]">
+!       }
         <span itemscope itemprop="publisher"
               itemtype="http://schema.org/Organization">
           <meta itemprop="name" content="Money Lantern" />
