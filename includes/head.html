@@ -23,12 +23,12 @@
   <!-- *** Twitter Card *** -->
 
   <!-- *** Open Graph *** --->
-  <meta name="og:type" content="website">
-  <meta name="og:title" content="$title">
-  <meta name="og:description" content="$desc">
-  <meta name="og:url" href="[www::url -canonical [getparam url]]">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="$title">
+  <meta property="og:description" content="$desc">
+  <meta property="og:url" href="[www::url -canonical [getparam url]]">
 ! if {[getparam -noerror socialImg] != ""} {
-    <meta name="og:image"
+    <meta property="og:image"
          content="[www::url -full "/img/social_images/[getparam socialImg]"]">
 ! }
   <!-- *** Open Graph *** --->
