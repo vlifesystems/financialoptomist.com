@@ -13,7 +13,7 @@
     name        "Lawrence Woodman"
     url         "https://lawrencewoodman.github.io"
   }
-  twitterImg  "www.maxpixel.net-Coins-Pound-Wealth-Money-Currency-Bank-Note-414418.jpg"
+  socialImg  "www.maxpixel.net-Coins-Pound-Wealth-Money-Currency-Bank-Note-414418.jpg"
   tags        {"Income"}
 }
 
@@ -32,7 +32,7 @@
     name        "Lawrence Woodman"
     url         "https://lawrencewoodman.github.io"
   }
-  twitterImg  "house-key-square.jpeg"
+  socialImg  "house-key-square.jpeg"
   tags        {"Example"}
 }
 

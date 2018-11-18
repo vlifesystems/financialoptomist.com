@@ -16,11 +16,22 @@
   <meta name="twitter:site" content="@moneylantern">
   <meta name="twitter:title" content="$title">
   <meta name="twitter:description" content="$desc">
-! if {[getparam -noerror twitterImg] != ""} {
+! if {[getparam -noerror socialImg] != ""} {
     <meta name="twitter:image"
-         content="[www::url -full "/img/twitter_images/[getparam twitterImg]"]">
+         content="[www::url -full "/img/social_images/[getparam socialImg]"]">
 ! }
   <!-- *** Twitter Card *** -->
+
+  <!-- *** Open Graph *** --->
+  <meta name="og:type" content="website">
+  <meta name="og:title" content="$title">
+  <meta name="og:description" content="$desc">
+  <meta name="og:url" href="[www::url -canonical [getparam url]]">
+! if {[getparam -noerror socialImg] != ""} {
+    <meta name="og:image"
+         content="[www::url -full "/img/social_images/[getparam socialImg]"]">
+! }
+  <!-- *** Open Graph *** --->
 
 !* commandSubst false
   <!-- Global site tag (gtag.js) - Google Analytics -->

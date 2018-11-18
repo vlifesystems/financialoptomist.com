@@ -14,14 +14,14 @@ file copy [file join $contactIconsDir *.svg] \
           [www::makeDestination img contact_icons]
 
 
-set socialImagesDir [dir content static img social_flat_rounded_rects_svg]
-file copy [file join $socialImagesDir *.svg] \
+set socialButtonsImagesDir [dir content static img social_flat_rounded_rects_svg]
+file copy [file join $socialButtonsImagesDir *.svg] \
           [www::makeDestination img social_flat_rounded_rects_svg]
 
-set twitterImagesDir [dir content static img twitter_images]
-file copy [file join $twitterImagesDir *.jpeg] \
-          [file join $twitterImagesDir *.jpg] \
-          [www::makeDestination img twitter_images]
+set socialImagesDir [dir content static img social_images]
+file copy [file join $socialImagesDir *.jpeg] \
+          [file join $socialImagesDir *.jpg] \
+          [www::makeDestination img social_images]
 
 set faviconsDir [dir content static favicons]
 file copy [file join $faviconsDir *.ico] \
