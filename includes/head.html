@@ -14,6 +14,9 @@
   <!-- *** Twitter Card *** -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@moneylantern">
+! if {[getparam -noerror author twitter] != ""} {
+    <meta name="twitter:creator" content="[getparam author twitter]">
+! }
   <meta name="twitter:title" content="$title">
   <meta name="twitter:description" content="$desc">
 ! if {[getparam -noerror socialImg] != ""} {
