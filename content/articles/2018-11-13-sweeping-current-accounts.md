@@ -10,7 +10,9 @@ If we have a high interest current account, it would probably make sense to have
 It is worth creating some [SMART saving](/articles/smart-saving/) goals so that we know where best to put our money.  We might decide to make sure that our emergency fund is sufficient to start with, this could be split between the current account and an easy access savings account.  Next we might want to put any excess money into longer term savings such as for a house deposit or retirement.  Alternatively we may want to save for a nearer time goal such as a holiday.  This will determine where we put our money and how easily we need to access it.
 
 ## How to Manually Sweep the Current Account?
-Once we have determined the minimum amount we want in our current account, we should check it once a month and decide if the current account has excess money in it.   A good time to do this is at the point in the month when our account is at its highest, normally just after pay day. This can be done by subtract the following from the most recent account's balance:
+Once we have determined the minimum amount we want in our current account, we should check it once a month and decide if the current account has excess money in it.   A good time to do this is at the point in the month when our account is at its highest, normally just after pay day.
+
+This can be done by subtract the following from the most recent account's balance:
 * The most recent pay
 * Any extra expenses coming up that will be coming from this account such as Christmas, a holiday, etc
 * The minimum current account amount
@@ -22,18 +24,15 @@ If the final amount is above 0 then transfer it into whichever account we have d
 To put this another way:
 <br />
 
-<div class="text-monospace">
-  <strong>b</strong> = Highest current account balance in month<br />
-  <strong>p</strong> = Most recent pay</br />
-  <strong>e</strong> = Extra expenses coming up that will be coming from this account such as Christmas, a holiday, etc<br />
-  <strong>m</strong> = Minimum current account balance<br />
-  <strong>s</strong> = Amount to sweep into another account<br />
-  <br />
-  <strong>s = b - p - e - m</strong><br />
-  <br />
-  If <strong>s</strong> > 0 then transfer amount <strong>s</strong> into another account.
-</div>
-<br />
+    b = Highest current account balance in month
+    p = Most recent pay
+    e = Extra expenses coming up that will be coming from this account such as Christmas, a holiday, etc
+    m = Minimum current account balance
+    s = Amount to sweep into another account
+
+    s = b - p - e - m
+
+    If s > 0 then transfer amount s into another account.
 
 ## Automated Current Account Sweeping
 Some current accounts can automatically sweep current accounts if they have above a set amount in them.  This is great, but we have to be careful that the account that they sweep into is right for us - that it is paying enough interest and is easy enough to withdraw from for our plan.  We also need to be careful that it doesn't sweep too much when we have a big expense coming up as that could lead our account to have less than our minimum and potentially even take us overdrawn.
