@@ -1,3 +1,14 @@
+{ filename    2018-11-22-percentage-based-budgets.md
+  title       "Percentage Based Budgets"
+  author      {
+    name        "Lawrence Woodman"
+    url         "https://lawrencewoodman.github.io"
+    twitter     "@lorrywoodman"
+  }
+  socialImg  "60percent_solution_pie_chart.png"
+  tags        {"Budget"}
+}
+
 { filename    2018-11-13-sweeping-current-accounts.md
   title       "Sweeping Current Accounts"
   author      {

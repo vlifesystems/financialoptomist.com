@@ -21,6 +21,7 @@ file copy [file join $socialButtonsImagesDir *.svg] \
 set socialImagesDir [dir content static img social_images]
 file copy [file join $socialImagesDir *.jpeg] \
           [file join $socialImagesDir *.jpg] \
+          [file join $socialImagesDir *.png] \
           [www::makeDestination img social_images]
 
 set faviconsDir [dir content static favicons]
