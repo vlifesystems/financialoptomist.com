@@ -2,9 +2,27 @@
   <title>Money Lantern - Lower Income UK Personal Finance</title>
   <link href="https://moneylantern.com/feed.xml" rel="self"/>
   <link href="https://moneylantern.com"/>
-  <updated>2018-11-19</updated>
+  <updated>2018-11-22</updated>
   <id>https://moneylantern.com/feed.xml</id>
   <generator uri="https://github.com/lawrencewoodman/tekyll">teykll</generator>
+    <entry>
+      <title>Percentage Based Budgets</title>
+      <id>https://moneylantern.com/articles/percentage-based-budgets/</id>
+      <link href="https://moneylantern.com/articles/percentage-based-budgets/"/>
+        <author>
+          <name>Lawrence Woodman</name>
+          <uri>https://lawrencewoodman.github.io</uri>
+        </author>
+        <published>
+          2018-11-22
+        </published>
+
+        <updated>
+          2018-11-22
+        </updated>
+
+        <summary>There are many different ways of budgeting and some of the most popular use percentages to allocate income towards essentials, non-essentials and savings.  This can be a useful and simple way to help d</summary>
+    </entry>
     <entry>
       <title>Sweeping Current Accounts</title>
       <id>https://moneylantern.com/articles/sweeping-current-accounts/</id>

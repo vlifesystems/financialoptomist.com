@@ -5,8 +5,13 @@ table.hand-written {
   margin-bottom: 2em;
 }
 
-.text-monospace {
+pre {
   font-family: monospace;
+  font-size: 14pt;
+  display: block;
+  white-space: pre;
+  border: none;
+  background: white;
 }
 
 hr {
